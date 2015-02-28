@@ -46,5 +46,5 @@
 			<small>&copy;Tutorial jQuery Mobile</small>
 		</div>
 	</div>
-roa es bobo
+john me lo chupa
 </div>
