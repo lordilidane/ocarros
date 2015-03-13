@@ -912,6 +912,7 @@ PanelDeBusquedas  panelBusqueda = new PanelDeBusquedas ();
         Pronostico_Diagnosticos = new org.edisoncor.gui.textField.TextField();
         buttonAction12 = new org.edisoncor.gui.button.ButtonAction();
         panel29 = new org.edisoncor.gui.panel.Panel();
+        panel14 = new org.edisoncor.gui.panel.Panel();
         panel26 = new org.edisoncor.gui.panel.Panel();
         jLabel62 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
@@ -3145,6 +3146,19 @@ PanelDeBusquedas  panelBusqueda = new PanelDeBusquedas ();
 
         tabbedSelector21.addTab("Diagnostico", panel27);
 
+        javax.swing.GroupLayout panel14Layout = new javax.swing.GroupLayout(panel14);
+        panel14.setLayout(panel14Layout);
+        panel14Layout.setHorizontalGroup(
+            panel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 845, Short.MAX_VALUE)
+        );
+        panel14Layout.setVerticalGroup(
+            panel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 574, Short.MAX_VALUE)
+        );
+
+        tabbedSelector21.addTab("Felipe modificacion", panel14);
+
         panel26.setColorPrimario(new java.awt.Color(255, 255, 255));
         panel26.setColorSecundario(new java.awt.Color(204, 204, 204));
 
@@ -3864,6 +3878,7 @@ PanelDeBusquedas  panelBusqueda = new PanelDeBusquedas ();
     private org.edisoncor.gui.panel.Panel panel11;
     private org.edisoncor.gui.panel.Panel panel12;
     private org.edisoncor.gui.panel.Panel panel13;
+    private org.edisoncor.gui.panel.Panel panel14;
     private org.edisoncor.gui.panel.Panel panel15;
     private org.edisoncor.gui.panel.Panel panel17;
     private org.edisoncor.gui.panel.Panel panel18;
