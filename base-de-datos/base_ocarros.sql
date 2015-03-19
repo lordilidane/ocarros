@@ -16,7 +16,7 @@ CREATE TABLE `historia_clinica` (
 	`genero` VARCHAR(50) NOT NULL,
 	`edb` VARCHAR(25) NOT NULL,
 	`especie` VARCHAR(50) NOT NULL,
-	`nombre_comun` VARCAHR(50) NOT NULL,
+	`nombre_comun` VARCHAR(50) NOT NULL,
 	`sexo` VARCHAR(20) NOT NULL,
 	`identificacion` VARCHAR(25) NOT NULL,
 	`medicos_veterinarios_id/mp` INTEGER NOT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE `anamnesicos` (
 CREATE TABLE `examen_clinico` (
 	`t` VARCHAR(10) NOT NULL,
 	`fc` VARCHAR(10) NOT NULL,
-	`fr` VARCAHR(10) NOT NULL,
+	`fr` VARCHAR(10) NOT NULL,
 	`mm` VARCHAR(10) NOT NULL,
 	`tllc` VARCHAR(10) NOT NULL,
 	`temperamento` VARCHAR(10) NOT NULL,
