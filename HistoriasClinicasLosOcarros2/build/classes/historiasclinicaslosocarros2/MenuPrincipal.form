@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
     <Component class="javax.swing.ButtonGroup" name="estadoGeneral">
     </Component>
@@ -328,6 +328,19 @@
                                               <Component id="Te_Placa" alignment="0" max="32767" attributes="0"/>
                                               <Component id="Te_Tatoo" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
                                           </Group>
+                                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="Tatoo1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="Te_Tatoo1" min="-2" pref="164" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="Tatoo2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="Te_Tatoo2" min="-2" pref="164" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
                                           <EmptySpace max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -336,19 +349,31 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="labelCustom15" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Chip" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Te_Chip" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Tatoo" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Te_Tatoo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                                  <Component id="Tatoo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Te_Tatoo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="labelCustom15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Chip" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Te_Chip" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Tatoo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Te_Tatoo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
                                           </Group>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="Areta" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Te_Areta" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Placa" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Te_Placa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                                  <Component id="Tatoo2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Te_Tatoo2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="Areta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Te_Areta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Placa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Te_Placa" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
                                           </Group>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
@@ -503,6 +528,50 @@
                                     <Property name="enabled" type="boolean" value="false"/>
                                   </Properties>
                                 </Component>
+                                <Component class="javax.swing.JCheckBox" name="Tatoo1">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="0" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Tahoma" size="11" style="1"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Anillo"/>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Tatoo1MouseClicked"/>
+                                  </Events>
+                                </Component>
+                                <Component class="org.edisoncor.gui.textField.TextField" name="Te_Tatoo1">
+                                  <Properties>
+                                    <Property name="enabled" type="boolean" value="false"/>
+                                  </Properties>
+                                </Component>
+                                <Component class="javax.swing.JCheckBox" name="Tatoo2">
+                                  <Properties>
+                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="0" green="0" red="0" type="rgb"/>
+                                    </Property>
+                                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                      <Font name="Tahoma" size="11" style="1"/>
+                                    </Property>
+                                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                    </Property>
+                                    <Property name="text" type="java.lang.String" value="Otro"/>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Tatoo2MouseClicked"/>
+                                  </Events>
+                                </Component>
+                                <Component class="org.edisoncor.gui.textField.TextField" name="Te_Tatoo2">
+                                  <Properties>
+                                    <Property name="enabled" type="boolean" value="false"/>
+                                  </Properties>
+                                </Component>
                               </SubComponents>
                             </Container>
                             <Container class="org.edisoncor.gui.panel.Panel" name="panel24">
@@ -513,45 +582,41 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
                                                   <Component id="labelCustom14" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace max="32767" attributes="0"/>
-                                                  <Component id="Edad_Aproximada" min="-2" pref="160" max="-2" attributes="0"/>
+                                                  <Component id="Recinto_N_EXH1" min="-2" pref="160" max="-2" attributes="0"/>
                                               </Group>
-                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Component id="labelCustom8" min="-2" max="-2" attributes="0"/>
-                                                          <EmptySpace max="32767" attributes="0"/>
-                                                          <Component id="Nit" min="-2" pref="160" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Component id="labelCustom7" min="-2" max="-2" attributes="0"/>
-                                                          <EmptySpace max="32767" attributes="0"/>
-                                                          <Component id="Te_Historia_Clinica" min="-2" pref="160" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Component id="labelCustom1" min="-2" max="-2" attributes="0"/>
-                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                          <Component id="Fecha_De_Ingreso" min="-2" pref="160" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Group type="102" alignment="1" attributes="0">
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="labelCustom4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="86" max="32767" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                              <Component id="Origen" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="Especie" alignment="0" pref="160" max="32767" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="labelCustom8" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="Nit" min="-2" pref="160" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="labelCustom7" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="Te_Historia_Clinica" min="-2" pref="160" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="labelCustom1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="Fecha_De_Ingreso" min="-2" pref="160" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="labelCustom4" alignment="0" min="-2" max="-2" attributes="0"/>
                                                   </Group>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Component id="labelCustom10" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                                      <Component id="Recinto_N_EXH" min="-2" pref="160" max="-2" attributes="0"/>
+                                                  <EmptySpace min="86" max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="Origen" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="Especie" alignment="0" pref="160" max="32767" attributes="0"/>
                                                   </Group>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="labelCustom10" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="Recinto_N_EXH" min="-2" pref="160" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
@@ -577,17 +642,12 @@
                                                   <Component id="Sexo" min="-2" pref="160" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="labelCustom9" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace max="32767" attributes="0"/>
-                                                  <Component id="Recinto_N_CTNA" min="-2" pref="160" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="0" attributes="0">
                                                   <Component id="labelCustom6" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Component id="Fecha_Historia_Clinica" min="-2" pref="160" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace pref="485" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -596,54 +656,66 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="Fecha_De_Ingreso" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="labelCustom1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Ficha_De_Ingreso" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="labelCustom5" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                                                  <Component id="labelCustom4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="labelCustom6" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="Especie" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="Fecha_De_Ingreso" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="labelCustom1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Ficha_De_Ingreso" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="labelCustom5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                                          <Component id="labelCustom4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="labelCustom6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Especie" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="Fecha_Historia_Clinica" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Origen" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="labelCustom7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Te_Historia_Clinica" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="labelCustom8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Nit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
                                               </Group>
-                                              <Component id="Fecha_Historia_Clinica" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="labelCustom11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Sexo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="labelCustom13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="EDB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="labelCustom12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Nombre_Comun" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                                              </Group>
                                           </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Origen" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="labelCustom9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Recinto_N_CTNA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="labelCustom7" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Te_Historia_Clinica" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="labelCustom11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Sexo" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="labelCustom8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Nit" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="labelCustom13" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="EDB" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
                                               <Component id="labelCustom10" alignment="3" min="-2" max="-2" attributes="0"/>
                                               <Component id="Recinto_N_EXH" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="labelCustom12" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Nombre_Comun" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="labelCustom14" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Edad_Aproximada" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="labelCustom14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Recinto_N_EXH1" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace pref="69" max="32767" attributes="0"/>
+                                          <EmptySpace pref="72" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                 </DimensionLayout>
@@ -664,7 +736,7 @@
                                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                       <Color blue="33" green="0" red="0" type="rgb"/>
                                     </Property>
-                                    <Property name="text" type="java.lang.String" value="Especie:"/>
+                                    <Property name="text" type="java.lang.String" value="Clase:"/>
                                   </Properties>
                                 </Component>
                                 <Component class="javax.swing.JLabel" name="jLabel1">
@@ -682,10 +754,10 @@
                                   <Properties>
                                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                                       <StringArray count="4">
-                                        <StringItem index="0" value="Item 1"/>
-                                        <StringItem index="1" value="Item 2"/>
-                                        <StringItem index="2" value="Item 3"/>
-                                        <StringItem index="3" value="Item 4"/>
+                                        <StringItem index="0" value="Nacimiento"/>
+                                        <StringItem index="1" value="Cav"/>
+                                        <StringItem index="2" value="Intercambio"/>
+                                        <StringItem index="3" value="Abandono"/>
                                       </StringArray>
                                     </Property>
                                     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -728,21 +800,6 @@
                                     </Property>
                                   </Properties>
                                 </Component>
-                                <Component class="org.edisoncor.gui.label.LabelCustom" name="labelCustom9">
-                                  <Properties>
-                                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                                      <Color blue="33" green="0" red="0" type="rgb"/>
-                                    </Property>
-                                    <Property name="text" type="java.lang.String" value="Recinto N&#xb0; CTNA:"/>
-                                  </Properties>
-                                </Component>
-                                <Component class="org.edisoncor.gui.textField.TextField" name="Recinto_N_CTNA">
-                                  <Properties>
-                                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                                      <Dimension value="[81, 20]"/>
-                                    </Property>
-                                  </Properties>
-                                </Component>
                                 <Component class="org.edisoncor.gui.label.LabelCustom" name="labelCustom8">
                                   <Properties>
                                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -772,7 +829,7 @@
                                       <StringArray count="3">
                                         <StringItem index="0" value="Macho"/>
                                         <StringItem index="1" value="Hembra"/>
-                                        <StringItem index="2" value="Indefinido"/>
+                                        <StringItem index="2" value="Indeterminado"/>
                                       </StringArray>
                                     </Property>
                                     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -792,11 +849,11 @@
                                   <Properties>
                                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                                       <StringArray count="5">
-                                        <StringItem index="0" value="N"/>
-                                        <StringItem index="1" value="J"/>
-                                        <StringItem index="2" value="SA"/>
-                                        <StringItem index="3" value="A"/>
-                                        <StringItem index="4" value="AN"/>
+                                        <StringItem index="0" value="Neonato"/>
+                                        <StringItem index="1" value="Juvenil"/>
+                                        <StringItem index="2" value="Sub Adulto"/>
+                                        <StringItem index="3" value="Adulto"/>
+                                        <StringItem index="4" value="Geriatrico"/>
                                       </StringArray>
                                     </Property>
                                     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -809,7 +866,7 @@
                                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                       <Color blue="33" green="0" red="0" type="rgb"/>
                                     </Property>
-                                    <Property name="text" type="java.lang.String" value="Recinto N&#xb0; EXH :"/>
+                                    <Property name="text" type="java.lang.String" value="Recinto:"/>
                                   </Properties>
                                 </Component>
                                 <Component class="org.edisoncor.gui.textField.TextField" name="Recinto_N_EXH">
@@ -845,8 +902,6 @@
                                     <Property name="text" type="java.lang.String" value="Edad Aproximada :"/>
                                   </Properties>
                                 </Component>
-                                <Component class="com.toedter.calendar.JDateChooser" name="Edad_Aproximada">
-                                </Component>
                                 <Component class="javax.swing.JComboBox" name="Especie">
                                   <Properties>
                                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -859,6 +914,16 @@
                                       </StringArray>
                                     </Property>
                                   </Properties>
+                                </Component>
+                                <Component class="org.edisoncor.gui.textField.TextField" name="Recinto_N_EXH1">
+                                  <Properties>
+                                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                      <Dimension value="[81, 20]"/>
+                                    </Property>
+                                  </Properties>
+                                  <Events>
+                                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Recinto_N_EXH1ActionPerformed"/>
+                                  </Events>
                                 </Component>
                               </SubComponents>
                             </Container>
@@ -964,8 +1029,8 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="Solicitar Examenes">
-                        <Property name="tabTitle" type="java.lang.String" value="Solicitar Examenes"/>
+                      <JTabbedPaneConstraints tabName=" Examenes">
+                        <Property name="tabTitle" type="java.lang.String" value=" Examenes"/>
                       </JTabbedPaneConstraints>
                     </Constraint>
                   </Constraints>
@@ -974,7 +1039,7 @@
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="panel5" min="-2" pref="299" max="-2" attributes="0"/>
+                              <Component id="panel5" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="panel25" max="32767" attributes="0"/>
                           </Group>
@@ -1004,40 +1069,34 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                                   <Component id="jLabel55" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <EmptySpace pref="93" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jCheckBox1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox14" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox13" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox15" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox16" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jCheckBox9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox10" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jCheckBox12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="buttonAction10" min="-2" pref="88" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
+                                  <EmptySpace pref="201" max="32767" attributes="0"/>
+                                  <Component id="buttonAction10" min="-2" pref="88" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jCheckBox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jCheckBox9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jCheckBox12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1046,7 +1105,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Component id="jLabel55" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <EmptySpace pref="33" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jCheckBox1" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox12" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -1079,14 +1138,11 @@
                                   <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jCheckBox16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jCheckBox10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jCheckBox15" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jCheckBox11" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="44" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox15" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="buttonAction10" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -1100,6 +1156,9 @@
                             </Property>
                             <Property name="text" type="java.lang.String" value="Biometria Hematica"/>
                           </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox2">
                           <Properties>
@@ -1166,14 +1225,6 @@
                               <Font name="Tahoma" size="14" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Citologia"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JCheckBox" name="jCheckBox10">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Tahoma" size="14" style="0"/>
-                            </Property>
-                            <Property name="text" type="java.lang.String" value="jCheckBox1"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JCheckBox" name="jCheckBox11">
@@ -1281,8 +1332,8 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="General">
-                        <Property name="tabTitle" type="java.lang.String" value="General"/>
+                      <JTabbedPaneConstraints tabName="Evaluacion Externa">
+                        <Property name="tabTitle" type="java.lang.String" value="Evaluacion Externa"/>
                       </JTabbedPaneConstraints>
                     </Constraint>
                   </Constraints>
@@ -2513,69 +2564,79 @@
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                                          <Component id="Presuntivo_Diagnosticos" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+                                          <Component id="buttonAction12" max="32767" attributes="0"/>
                                       </Group>
-                                      <Group type="102" alignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel58" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel59" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jLabel58" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="jScrollPane5" min="-2" pref="233" max="-2" attributes="0"/>
+                                                      <Component id="jScrollPane7" min="-2" pref="233" max="-2" attributes="0"/>
+                                                      <Component id="jScrollPane6" min="-2" pref="233" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jLabel59" min="-2" pref="150" max="-2" attributes="0"/>
+                                              </Group>
                                           </Group>
-                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="Diferencial_Diagnosticos" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="Pronostico_Diagnosticos" alignment="0" max="32767" attributes="0"/>
-                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
-                                  <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace pref="55" max="32767" attributes="0"/>
-                                  <Component id="jScrollPane2" min="-2" pref="210" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
-                                  <Component id="buttonAction12" pref="0" max="32767" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="61" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane8" min="-2" pref="233" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane6" min="-2" pref="79" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="jScrollPane2" min="-2" pref="82" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel56" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="Presuntivo_Diagnosticos" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel58" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="Diferencial_Diagnosticos" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel59" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="Pronostico_Diagnosticos" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace pref="255" max="32767" attributes="0"/>
+                                  <Component id="jLabel58" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                                  <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane5" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane7" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <EmptySpace pref="43" max="32767" attributes="0"/>
                                   <Component id="buttonAction12" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane8" min="-2" pref="79" max="-2" attributes="0"/>
+                                      <EmptySpace pref="301" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -2586,33 +2647,15 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Tahoma" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Diagnostico Presuntivo:"/>
+                            <Property name="text" type="java.lang.String" value="Planes Diagn&#xf3;sticos"/>
                           </Properties>
                         </Component>
-                        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
-                          <AuxValues>
-                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                          </AuxValues>
-
-                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                          <SubComponents>
-                            <Component class="javax.swing.JTextArea" name="Observaciones_Diagnosticos">
-                              <Properties>
-                                <Property name="columns" type="int" value="20"/>
-                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                                  <Font name="Tahoma" size="14" style="0"/>
-                                </Property>
-                                <Property name="rows" type="int" value="5"/>
-                              </Properties>
-                            </Component>
-                          </SubComponents>
-                        </Container>
                         <Component class="javax.swing.JLabel" name="jLabel57">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Tahoma" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Observaciones Clinicas:"/>
+                            <Property name="text" type="java.lang.String" value="Hallazgos Anormales:"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel58">
@@ -2620,7 +2663,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Tahoma" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Diagnostico Diferencial:"/>
+                            <Property name="text" type="java.lang.String" value="Diagnostico Diferenciales:"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel59">
@@ -2628,28 +2671,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Tahoma" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Pronostico:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="org.edisoncor.gui.textField.TextField" name="Presuntivo_Diagnosticos">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Tahoma" size="14" style="0"/>
-                            </Property>
-                          </Properties>
-                        </Component>
-                        <Component class="org.edisoncor.gui.textField.TextField" name="Diferencial_Diagnosticos">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Tahoma" size="14" style="0"/>
-                            </Property>
-                          </Properties>
-                        </Component>
-                        <Component class="org.edisoncor.gui.textField.TextField" name="Pronostico_Diagnosticos">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Tahoma" size="14" style="0"/>
-                            </Property>
+                            <Property name="text" type="java.lang.String" value="Planes Terape&#xfa;ticos:"/>
                           </Properties>
                         </Component>
                         <Component class="org.edisoncor.gui.button.ButtonAction" name="buttonAction12">
@@ -2660,6 +2682,66 @@
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAction12ActionPerformed"/>
                           </Events>
                         </Component>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="jTextArea1">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="jTextArea2">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="jTextArea3">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="jTextArea4">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
                       </SubComponents>
                     </Container>
                     <Container class="org.edisoncor.gui.panel.Panel" name="panel29">
@@ -3081,6 +3163,1220 @@
                     </Container>
                   </SubComponents>
                 </Container>
+                <Container class="org.edisoncor.gui.panel.Panel" name="panel18">
+                  <Properties>
+                    <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Movimiento Animal">
+                        <Property name="tabTitle" type="java.lang.String" value="Movimiento Animal"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="entidad_7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="panel35" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="entidad_7" alignment="0" max="32767" attributes="0"/>
+                          <Component id="panel35" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="org.edisoncor.gui.panel.Panel" name="entidad_7">
+                      <Properties>
+                        <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane9" pref="536" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane9" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTable" name="jTable2">
+                              <Properties>
+                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                  <Table columnCount="2" rowCount="36">
+                                    <Column editable="true" title="FECHA" type="java.lang.Object"/>
+                                    <Column editable="true" title="RECINTO" type="java.lang.Object"/>
+                                  </Table>
+                                </Property>
+                                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                                  <TableColumnModel selectionModel="0">
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                  </TableColumnModel>
+                                </Property>
+                                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="org.edisoncor.gui.panel.Panel" name="panel35">
+                      <Properties>
+                        <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="350" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="574" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="org.edisoncor.gui.panel.Panel" name="panel13">
+                  <Properties>
+                    <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Valoracion Nutricional">
+                        <Property name="tabTitle" type="java.lang.String" value="Valoracion Nutricional"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="valoracion_nutricional" min="-2" pref="357" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="panel15" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="valoracion_nutricional" alignment="0" max="32767" attributes="0"/>
+                          <Component id="panel15" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="org.edisoncor.gui.panel.Panel" name="valoracion_nutricional">
+                      <Properties>
+                        <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel30" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="panel14" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="65" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="panel14" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel18">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Estr&#xe9;s:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel19">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Polidipsia:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel20">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Polifagia:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel21">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Depravacion del gusto:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel22">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Anorexia Selectiva:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel23">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Anorexia:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel24">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Inapetencia:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel25">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Prehensi&#xf3;n y masticacion:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel26">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Degluci&#xf3;n:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel27">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Rumia:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel28">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Emesis:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel29">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Duraci&#xf3;n:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel30">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Regurgitaci&#xf3;n:"/>
+                          </Properties>
+                        </Component>
+                        <Container class="org.edisoncor.gui.panel.Panel" name="panel14">
+                          <Properties>
+                            <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel31" min="-2" pref="21" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jLabel32" min="-2" pref="21" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jLabel33" min="-2" pref="25" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jLabel34" min="-2" pref="21" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="buttonAction2" min="-2" pref="97" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton44" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton45" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton46" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                              <Component id="jRadioButton56" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jRadioButton59" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Component id="jRadioButton50" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jRadioButton53" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="jRadioButton51" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Component id="jRadioButton52" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="jRadioButton54" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Component id="jRadioButton55" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="jRadioButton57" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Component id="jRadioButton58" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="jRadioButton60" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Component id="jRadioButton61" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton40" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton41" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton42" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton62" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton63" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton64" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton77" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton78" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton43" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton65" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton66" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton67" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton68" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton69" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton70" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton71" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton72" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton73" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton74" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton75" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton76" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jRadioButton47" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton48" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="jRadioButton49" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jRadioButton90" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton80" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton79" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton82" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton83" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton81" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton84" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton89" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton85" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton86" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton87" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton88" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jRadioButton91" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                                  <Component id="jRadioButton42" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton41" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton40" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton50" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton51" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton52" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton53" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton54" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton55" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton56" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton57" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton58" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton59" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton60" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton61" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton62" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton63" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton64" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton65" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton66" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton67" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton68" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton69" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton70" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton71" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton72" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton73" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton74" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton75" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton76" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton77" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton78" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton43" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="jRadioButton44" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jRadioButton46" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Component id="jRadioButton45" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="jRadioButton47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jRadioButton49" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Component id="jRadioButton48" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jRadioButton81" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton80" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton79" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton82" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton83" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton84" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton85" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton86" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton87" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton88" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton89" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton90" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton91" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="buttonAction2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="14" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton40">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="estadoGeneral"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton41">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="estadoGeneral"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton42">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="estadoGeneral"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton43">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaNervioso"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton44">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="comportamiento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton45">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="comportamiento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton46">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="comportamiento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton47">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="hidratacion"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton48">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="hidratacion"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton49">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="hidratacion"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton50">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tegumento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton51">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tegumento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton52">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tegumento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton53">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="muscosas"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton54">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="muscosas"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton55">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="muscosas"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton56">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tractoGastroIntestinal"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton57">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tractoGastroIntestinal"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton58">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tractoGastroIntestinal"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton59">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaLinfatico"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton60">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaLinfatico"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton61">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaLinfatico"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton62">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaCardiopulmunar"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton63">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaCardiopulmunar"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton64">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaCardiopulmunar"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton65">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaMuscular"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton66">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaMuscular"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton67">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaMuscular"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton68">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaOseo"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton69">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaOseo"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton70">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaOseo"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton71">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaUrogenital"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton72">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaUrogenital"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton73">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaUrogenital"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton74">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="organosDeLosSentidos"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton75">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="organosDeLosSentidos"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton76">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="organosDeLosSentidos"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton77">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaNervioso"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton78">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaNervioso"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel31">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="14" style="1"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="P"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel32">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="14" style="1"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="NP"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel33">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="14" style="1"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="NO"/>
+                              </Properties>
+                            </Component>
+                            <Component class="org.edisoncor.gui.button.ButtonAction" name="buttonAction2">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Registrar"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAction2ActionPerformed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel34">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Tahoma" size="14" style="1"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="N"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton79">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="muscosas"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton80">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tegumento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton81">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="estadoGeneral"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton82">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="tractoGastroIntestinal"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton83">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaLinfatico"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton84">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaCardiopulmunar"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton85">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaMuscular"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton86">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaOseo"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton87">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaUrogenital"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton88">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="organosDeLosSentidos"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton89">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="sistemaNervioso"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton90">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="comportamiento"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JRadioButton" name="jRadioButton91">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="e0" green="e0" red="e0" type="rgb"/>
+                                </Property>
+                                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                                  <ComponentRef name="hidratacion"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="org.edisoncor.gui.panel.Panel" name="panel15">
+                      <Properties>
+                        <Property name="colorPrimario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="colorSecundario" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="548" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                    </Container>
+                  </SubComponents>
+                </Container>
               </SubComponents>
             </Container>
             <Container class="org.edisoncor.gui.panel.Panel" name="panel26">
@@ -3110,42 +4406,26 @@
                                   </Group>
                                   <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jLabel64" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel65" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel63" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel62" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="N_Registro1" max="32767" attributes="0"/>
-                                      <Component id="fechaRegistro" alignment="0" pref="121" max="32767" attributes="0"/>
-                                      <Component id="Clinico_Registro1" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="Responsable_Registro1" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                              </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="buttonAction8" min="-2" max="-2" attributes="0"/>
-                                      <Group type="102" attributes="0">
-                                          <Component id="buttonAction7" min="-2" pref="86" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
-                                          <Component id="buttonAction6" min="-2" pref="89" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="buttonAction9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="buttonAction7" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="buttonAction6" min="-2" pref="89" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel64" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel63" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="fechaRegistro" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Responsable_Registro1" alignment="0" min="-2" pref="121" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -3159,12 +4439,7 @@
                           </Group>
                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                           <Component id="buttonAction5" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel62" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="N_Registro1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Component id="jLabel63" min="-2" max="-2" attributes="0"/>
                               <Component id="fechaRegistro" min="-2" max="-2" attributes="0"/>
@@ -3174,16 +4449,7 @@
                               <Component id="jLabel64" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="Responsable_Registro1" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="Clinico_Registro1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
-                          <Component id="buttonAction9" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="buttonAction8" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="370" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="buttonAction6" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="buttonAction7" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -3194,14 +4460,6 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="jLabel62">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tahoma" size="14" style="1"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="N&#xb0; Registro:"/>
-                  </Properties>
-                </Component>
                 <Component class="javax.swing.JLabel" name="jLabel63">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -3218,29 +4476,7 @@
                     <Property name="text" type="java.lang.String" value="Responsable:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JLabel" name="jLabel65">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tahoma" size="14" style="1"/>
-                    </Property>
-                    <Property name="text" type="java.lang.String" value="Clinico:"/>
-                  </Properties>
-                </Component>
-                <Component class="org.edisoncor.gui.textField.TextField" name="N_Registro1">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tahoma" size="12" style="0"/>
-                    </Property>
-                  </Properties>
-                </Component>
                 <Component class="org.edisoncor.gui.textField.TextField" name="Responsable_Registro1">
-                  <Properties>
-                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tahoma" size="12" style="0"/>
-                    </Property>
-                  </Properties>
-                </Component>
-                <Component class="org.edisoncor.gui.textField.TextField" name="Clinico_Registro1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="12" style="0"/>
@@ -3300,22 +4536,6 @@
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAction7ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="org.edisoncor.gui.button.ButtonAction" name="buttonAction8">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="buttonAction8"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAction8ActionPerformed"/>
-                  </Events>
-                </Component>
-                <Component class="org.edisoncor.gui.button.ButtonAction" name="buttonAction9">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="buttonAction9"/>
-                  </Properties>
-                  <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonAction9ActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
