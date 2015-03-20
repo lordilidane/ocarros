@@ -1,355 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<diagrama formula="%t_%c" version="8" nombreProyecto="ocarros" nombreAutor="Jefferson">
+<diagrama nombreProyecto="ocarros" nombreAutor="Jefferson" formula="%t_%c" version="8">
   <DataBase>2</DataBase>
   <lista-item>
     <item type="modelo-tabla" id="{041817f8-77b4-4855-b44c-0a54ff1accb7}">
       <nombre>historia_clinica</nombre>
       <posicion>
-        <x>-342</x>
-        <y>-341</y>
+        <x>-1429</x>
+        <y>-395</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="DATE" llaveUnica="" id="{8615b977-c8b7-45cc-933f-5467afaeace4}" nombre="fecha" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(50)" llaveUnica="" id="{3eafa2d9-3aff-4c54-9423-d303c7146d24}" nombre="tipo_ingreso" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(50)" llaveUnica="" id="{8bbb4fe6-3edc-488e-b2b5-54cd3012f6ba}" nombre="genero" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(25)" llaveUnica="" id="{3313313d-012a-4b90-b870-4b9a7b0ed7c7}" nombre="edb" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(50)" llaveUnica="" id="{6e1d9234-ef95-45e3-afa9-c853fe7face7}" nombre="especie" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCAHR(50)" llaveUnica="" id="{8004aa20-e50b-4233-9d5b-6c57142598d4}" nombre="nombre_comun" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(20)" llaveUnica="" id="{db5cf136-5ade-42eb-85a7-a0f79109ccbd}" nombre="sexo" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(25)" llaveUnica="" id="{36a10f5c-fef6-49c0-9ba2-d5660c73dadc}" nombre="identificacion" nulo="0" llaveprimaria="1" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="fecha" id="{8615b977-c8b7-45cc-933f-5467afaeace4}" tipoDato="DATE" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tipo_ingreso" id="{3eafa2d9-3aff-4c54-9423-d303c7146d24}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="genero" id="{8bbb4fe6-3edc-488e-b2b5-54cd3012f6ba}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="edb" id="{3313313d-012a-4b90-b870-4b9a7b0ed7c7}" tipoDato="VARCHAR(25)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="especie" id="{6e1d9234-ef95-45e3-afa9-c853fe7face7}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="nombre_comun" id="{8004aa20-e50b-4233-9d5b-6c57142598d4}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="sexo" id="{db5cf136-5ade-42eb-85a7-a0f79109ccbd}" tipoDato="VARCHAR(20)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="identificacion" id="{36a10f5c-fef6-49c0-9ba2-d5660c73dadc}" tipoDato="VARCHAR(25)" llaveprimaria="1"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{b50a93f6-d933-460e-a503-b6ce6b83a08e}">
       <nombre>anamnesicos</nombre>
       <posicion>
-        <x>22</x>
-        <y>-238</y>
+        <x>-1772</x>
+        <y>-447</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{adadf42b-fdb5-44ca-92bb-d9ac507e83e9}" nombre="lugar_extraccion" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{a155e727-b88b-44e5-9fa0-6dedbdcf981e}" nombre="procedencia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{274b713c-7a88-49a1-b066-f08bdf66eb68}" nombre="tiempo_cautiverio" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{90446928-73c6-4c26-ae24-122a689e2ca8}" nombre="t_ambiental" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{d6fd2ae3-3a5e-4772-baa2-473259c22a3a}" nombre="humedad" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{a8f2b3b1-aecf-4c8b-9d74-4fc3cd0b1e42}" nombre="especie_contacto" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{993643e3-55f1-44b3-bc22-e7e90eea9a9e}" nombre="enfermedad_animales_cercanos" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{28454335-d625-47ef-8508-a56a0285789b}" nombre="carac_cautiverio" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{72ef3403-6699-4f5b-9f61-669cab16ac11}" nombre="tipo_transporte" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{5caec45d-2d88-4dbd-82ab-7ca38b86ef6b}" nombre="tiempo_transporte" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{a218148a-1723-4a5c-98f0-b138f76ccdb1}" nombre="dieta_suministrada" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{1aa86720-2f97-455a-8a2f-081d81252191}" nombre="frecuencia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{e0bb22c5-b72f-46c4-a50c-2adb4c79a0f8}" nombre="consumo" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{52398e71-fad6-4ef4-8172-e01fc9658163}" nombre="signos_duracion" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(250)" llaveUnica="" id="{4544d790-29ad-413e-9f90-499744468577}" nombre="tratamiento_previo_respuesta" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="lugar_extraccion" id="{adadf42b-fdb5-44ca-92bb-d9ac507e83e9}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="procedencia" id="{a155e727-b88b-44e5-9fa0-6dedbdcf981e}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tiempo_cautiverio" id="{274b713c-7a88-49a1-b066-f08bdf66eb68}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="t_ambiental" id="{90446928-73c6-4c26-ae24-122a689e2ca8}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="humedad" id="{d6fd2ae3-3a5e-4772-baa2-473259c22a3a}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="especie_contacto" id="{a8f2b3b1-aecf-4c8b-9d74-4fc3cd0b1e42}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="enfermedad_animales_cercanos" id="{993643e3-55f1-44b3-bc22-e7e90eea9a9e}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="carac_cautiverio" id="{28454335-d625-47ef-8508-a56a0285789b}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tipo_transporte" id="{72ef3403-6699-4f5b-9f61-669cab16ac11}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tiempo_transporte" id="{5caec45d-2d88-4dbd-82ab-7ca38b86ef6b}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="dieta_suministrada" id="{a218148a-1723-4a5c-98f0-b138f76ccdb1}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="frecuencia" id="{1aa86720-2f97-455a-8a2f-081d81252191}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="consumo" id="{e0bb22c5-b72f-46c4-a50c-2adb4c79a0f8}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="signos_duracion" id="{52398e71-fad6-4ef4-8172-e01fc9658163}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tratamiento_previo_respuesta" id="{4544d790-29ad-413e-9f90-499744468577}" tipoDato="VARCHAR(250)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{590324fd-6c33-4f49-b2a4-ed583ccd6a8a}">
       <nombre>examen_clinico</nombre>
       <posicion>
-        <x>-796</x>
-        <y>-371</y>
+        <x>-832</x>
+        <y>-511</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{366c3ac3-f1c5-4f80-bc5d-2b8937375d55}" nombre="t" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{0022a8bc-c47f-4280-a85c-5b3de1e94325}" nombre="fc" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCAHR(10)" llaveUnica="" id="{cc72bde1-2c92-4c3b-b8c7-2c777bc8f0cc}" nombre="fr" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{74ec7656-21c2-4eb9-939f-5f4389cf6f7a}" nombre="mm" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{78bc2d96-d2ac-4a9c-b663-435ad82db3fe}" nombre="tllc" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{f45e24b4-b59d-4fee-8f1f-4765b9ccea14}" nombre="temperamento" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{099fa41d-d942-49cc-8a5b-ae4037b0b0e5}" nombre="actitud" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{e80ceb3b-00f0-4441-a316-03c1682c91e6}" nombre="peso" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{1a925f8d-599e-42f8-bdbb-e11a5cf4ccd7}" nombre="cc" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="t" id="{366c3ac3-f1c5-4f80-bc5d-2b8937375d55}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="fc" id="{0022a8bc-c47f-4280-a85c-5b3de1e94325}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="fr" id="{cc72bde1-2c92-4c3b-b8c7-2c777bc8f0cc}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="mm" id="{74ec7656-21c2-4eb9-939f-5f4389cf6f7a}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tllc" id="{78bc2d96-d2ac-4a9c-b663-435ad82db3fe}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="temperamento" id="{f45e24b4-b59d-4fee-8f1f-4765b9ccea14}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="actitud" id="{099fa41d-d942-49cc-8a5b-ae4037b0b0e5}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="peso" id="{e80ceb3b-00f0-4441-a316-03c1682c91e6}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="cc" id="{1a925f8d-599e-42f8-bdbb-e11a5cf4ccd7}" tipoDato="VARCHAR(10)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{1f475257-5a47-4698-a2bf-36b2b0fc8554}">
       <nombre>general</nombre>
       <posicion>
-        <x>-873</x>
-        <y>-104</y>
+        <x>-1329</x>
+        <y>96</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{cb80b532-8ab0-403c-af12-1c4eb1715725}" nombre="estado_general" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{5ae1b560-8ba1-4dd7-b014-05159e3cb04e}" nombre="hidratacion" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{be0d1e32-0682-4771-8bd1-28e246fa2a77}" nombre="tegumento" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{e3c0306c-3fa6-42b5-b599-fa9d8d47a69c}" nombre="cardiovascular" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{fb401c0f-e3d4-4da8-8851-88503c21f29e}" nombre="respiratorio" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{91389426-6eac-4bd1-a8d5-39c8b9114e78}" nombre="digestivo" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{a9851c27-537d-44c0-85da-f31f3daf7d9c}" nombre="nervioso" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{5af9432e-7768-436a-861f-5b2249da7548}" nombre="musculo_esqueletico" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{5403d1d5-ce94-408e-8cc5-07062fde28f9}" nombre="urinario" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{7a297a52-61fb-403e-b93f-acdb6d4367dc}" nombre="reproductivo" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{73526b38-a70a-46b1-9699-a048a657f4b8}" nombre="linfoide" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{0a4efa94-f6d5-44f1-9b53-160bebd2c0e4}" nombre="organos_sentidos" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{c4d53be1-a5bc-428c-a2ad-0458c1127320}" nombre="otros" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="estado_general" id="{cb80b532-8ab0-403c-af12-1c4eb1715725}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="hidratacion" id="{5ae1b560-8ba1-4dd7-b014-05159e3cb04e}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tegumento" id="{be0d1e32-0682-4771-8bd1-28e246fa2a77}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="cardiovascular" id="{e3c0306c-3fa6-42b5-b599-fa9d8d47a69c}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="respiratorio" id="{fb401c0f-e3d4-4da8-8851-88503c21f29e}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="digestivo" id="{91389426-6eac-4bd1-a8d5-39c8b9114e78}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="nervioso" id="{a9851c27-537d-44c0-85da-f31f3daf7d9c}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="musculo_esqueletico" id="{5af9432e-7768-436a-861f-5b2249da7548}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="urinario" id="{5403d1d5-ce94-408e-8cc5-07062fde28f9}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="reproductivo" id="{7a297a52-61fb-403e-b93f-acdb6d4367dc}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="linfoide" id="{73526b38-a70a-46b1-9699-a048a657f4b8}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="organos_sentidos" id="{0a4efa94-f6d5-44f1-9b53-160bebd2c0e4}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="otros" id="{c4d53be1-a5bc-428c-a2ad-0458c1127320}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{dd60c6de-2060-41fd-93b4-3f8f11e52aa8}">
       <nombre>ENTIDAD_5</nombre>
       <posicion>
-        <x>-779</x>
-        <y>-692</y>
+        <x>-1271</x>
+        <y>-594</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(4)" llaveUnica="" id="{1815dfdd-c029-42b1-b089-a970d925f1ab}" nombre="esi" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(1)" llaveUnica="" id="{172bef21-09b5-49f7-a1f6-e02cae90cd26}" nombre="pcp" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(1)" llaveUnica="" id="{048086e1-d491-41ca-9e71-2035bf9b1891}" nombre="plp" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(1)" llaveUnica="" id="{f9cd2e62-6e3e-4d7a-9da9-2acf88ff3259}" nombre="hospitalizado" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(50)" llaveUnica="" id="{dc9d46d4-8589-4030-b723-e0219dafcbf8}" nombre="pronostico" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(1)" llaveUnica="" id="{f2da4d4c-f89c-44f0-962a-2c3a59796078}" nombre="cuarentena" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(20)" llaveUnica="" id="{e787d1ee-7472-4069-a216-10ef7f10ff69}" nombre="tiempo_cuarentena" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="esi" id="{1815dfdd-c029-42b1-b089-a970d925f1ab}" tipoDato="VARCHAR(4)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="pcp" id="{172bef21-09b5-49f7-a1f6-e02cae90cd26}" tipoDato="VARCHAR(1)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="plp" id="{048086e1-d491-41ca-9e71-2035bf9b1891}" tipoDato="VARCHAR(1)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="hospitalizado" id="{f9cd2e62-6e3e-4d7a-9da9-2acf88ff3259}" tipoDato="VARCHAR(1)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="pronostico" id="{dc9d46d4-8589-4030-b723-e0219dafcbf8}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="cuarentena" id="{f2da4d4c-f89c-44f0-962a-2c3a59796078}" tipoDato="VARCHAR(1)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tiempo_cuarentena" id="{e787d1ee-7472-4069-a216-10ef7f10ff69}" tipoDato="VARCHAR(20)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{339586a2-ad80-4a9f-af59-3d27d4fcec15}">
       <nombre>movimiento_animal</nombre>
       <posicion>
-        <x>-8</x>
-        <y>192</y>
+        <x>-847</x>
+        <y>-57</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="DATE" llaveUnica="" id="{71799349-7301-48cc-8b05-574a12a19c81}" nombre="fecha" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(200)" llaveUnica="" id="{4e8f046c-5513-4406-9bcc-31b9bd1d84d6}" nombre="exhibicion" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="fecha" id="{71799349-7301-48cc-8b05-574a12a19c81}" tipoDato="DATE" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="exhibicion" id="{4e8f046c-5513-4406-9bcc-31b9bd1d84d6}" tipoDato="VARCHAR(200)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}">
-      <nombre>medicos_veterinarios</nombre>
+      <nombre>registro</nombre>
       <posicion>
-        <x>-184</x>
-        <y>-673</y>
+        <x>-1153</x>
+        <y>-363</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(50)" llaveUnica="" id="{8ad7f1f4-ba32-4af7-b1dd-2edcac71d705}" nombre="nombre" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="INTEGER" llaveUnica="" id="{882455d5-5447-42ea-ae12-2796adf9ce35}" nombre="id/mp" nulo="0" llaveprimaria="1" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="id_registro" id="{740b70f2-ead6-4fd8-9164-d1bb0de9e648}" tipoDato="INTEGER" llaveprimaria="1"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="fecha" id="{6448cd66-cb89-4ac2-90b0-e61b2a364e40}" tipoDato="DATE" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="responsable" id="{8ad7f1f4-ba32-4af7-b1dd-2edcac71d705}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="id_responsable/mp" id="{882455d5-5447-42ea-ae12-2796adf9ce35}" tipoDato="INTEGER" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{8ea8cd46-ab78-46c6-bcc7-308771516af9}">
       <nombre>diagnosticos</nombre>
       <posicion>
-        <x>10</x>
-        <y>-382</y>
+        <x>-1110</x>
+        <y>156</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(500)" llaveUnica="" id="{476abd25-e25f-441f-a9c6-db7cf7ace518}" nombre="hallazgos_anormales" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(500)" llaveUnica="" id="{97100c98-8ddc-4480-8634-7d38e1c793e9}" nombre="diagnosticos_diferenciales" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(500)" llaveUnica="" id="{265c3c02-4c33-4369-864f-eada4e9eaf9f}" nombre="planes_diagnosticos" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(500)" llaveUnica="" id="{56d2bc4a-3bdb-4960-a2ce-5961cb16d8e5}" nombre="planes_terapeuticos" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(500)" llaveUnica="" id="{37d4e5d5-63ab-43a9-869e-7a2e2c444129}" nombre="otros_planes" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="hallazgos_anormales" id="{476abd25-e25f-441f-a9c6-db7cf7ace518}" tipoDato="VARCHAR(500)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="diagnosticos_diferenciales" id="{97100c98-8ddc-4480-8634-7d38e1c793e9}" tipoDato="VARCHAR(500)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="planes_diagnosticos" id="{265c3c02-4c33-4369-864f-eada4e9eaf9f}" tipoDato="VARCHAR(500)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="planes_terapeuticos" id="{56d2bc4a-3bdb-4960-a2ce-5961cb16d8e5}" tipoDato="VARCHAR(500)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="otros_planes" id="{37d4e5d5-63ab-43a9-869e-7a2e2c444129}" tipoDato="VARCHAR(500)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{487631a0-e186-4e33-b0a2-353fc908dc36}">
       <nombre>marcaje</nombre>
       <posicion>
-        <x>-819</x>
-        <y>282</y>
+        <x>-1464</x>
+        <y>-218</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(50)" llaveUnica="" id="{0e65701f-c125-4228-8a6b-095424c6dbbb}" nombre="marcaje" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="marcaje" id="{0e65701f-c125-4228-8a6b-095424c6dbbb}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{969e6e14-3d35-47b4-a93b-27b22ac15fa0}">
       <nombre>tipo_marcaje</nombre>
       <posicion>
-        <x>-785</x>
-        <y>394</y>
+        <x>-1430</x>
+        <y>-96</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="INTEGER" llaveUnica="" id="{7a041fb8-874b-41b7-9475-126bd8b66005}" nombre="id_tipo_marcaje" nulo="0" llaveprimaria="1" notas=""/>
-        <columna tipoDato="VARCHAR(50)" llaveUnica="" id="{aec9ea03-5f63-4793-bae9-89a60e76c7f7}" nombre="nombre" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="id_tipo_marcaje" id="{7a041fb8-874b-41b7-9475-126bd8b66005}" tipoDato="INTEGER" llaveprimaria="1"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="nombre" id="{aec9ea03-5f63-4793-bae9-89a60e76c7f7}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{53881044-3569-42be-aeb6-8415bd76afd2}">
       <nombre>terapeutica_evolucion</nombre>
       <posicion>
-        <x>-482</x>
-        <y>-679</y>
+        <x>-1042</x>
+        <y>-601</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="DATE" llaveUnica="" id="{739ec5ac-199e-443a-b2bd-ab794a0eb43d}" nombre="fecha" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(2000)" llaveUnica="" id="{3fd099de-b6aa-4abd-bacd-34c6dfbad145}" nombre="evolucion" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="fecha" id="{739ec5ac-199e-443a-b2bd-ab794a0eb43d}" tipoDato="DATE" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="evolucion" id="{3fd099de-b6aa-4abd-bacd-34c6dfbad145}" tipoDato="VARCHAR(2000)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{a78a4216-5fbb-480f-a6d8-b68f9c771fd5}">
       <nombre>examenes_solicitados</nombre>
       <posicion>
-        <x>6</x>
-        <y>-743</y>
+        <x>-971</x>
+        <y>63</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{c9763539-a238-41b2-b6c3-1dc37e3320cb}" nombre="biometria_hematica" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{29de9989-8243-4a38-be96-16936d493ce8}" nombre="perfil_hepatico" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{dc2d306d-0dcc-4850-abc1-ef686f1e14a0}" nombre="perfil_renal" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{aec40b2f-d6db-4f73-a743-35570dce8d97}" nombre="hormonas" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{2474cefd-5c76-4eb3-b14b-2b677afc4fdf}" nombre="coprologico" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{9f5ca148-b1bd-4801-a9bb-ade6f760766a}" nombre="coprocultivo" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{9bedc678-11ae-4d99-bc90-cdb256e760a5}" nombre="hemoparasitos" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{c7a1e03d-bff4-4f4d-a9b9-116419393c25}" nombre="rx" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(10)" llaveUnica="" id="{e50dbe5b-42e9-4129-a758-97db8e35b37a}" nombre="ecografia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="DATE" llaveUnica="" id="{4bc57163-f2c9-4cb9-9012-c74c6642c6dd}" nombre="fecha" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="id_examen" id="{dc7dc201-53e0-457d-9dd5-ba17cb4130e9}" tipoDato="INTEGER" llaveprimaria="1"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="nombre_examen" id="{3c0f61f2-6312-48c6-84a7-528327e27d65}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
     <item type="modelo-tabla" id="{1192cacd-acfb-448f-a4b2-5a198c029a6e}">
       <nombre>valoracion_nutricional</nombre>
       <posicion>
-        <x>-354</x>
-        <y>114</y>
+        <x>-628</x>
+        <y>-429</y>
       </posicion>
       <lista-columnas>
-        <columna tipoDato="DATE" llaveUnica="" id="{f03beef1-c850-4c6c-96b1-f8e043cc1e86}" nombre="fecha" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{db782441-4fb4-475e-9789-24cfe91a3f11}" nombre="peso_actual" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{373d7fd9-8774-4c7a-a3c1-5f08d1c3587f}" nombre="condicion_corporal" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{b2da34ba-06c1-4ad8-8854-9be04cd2ce28}" nombre="estres" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{a1e3a8f0-f36a-4a19-87c6-14fdd655a9ae}" nombre="polidipsia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{5670e9fe-8c47-4b1a-b2db-006eecf08860}" nombre="poliuria" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{133fb080-09f6-4574-a0b5-d70082119a87}" nombre="polifagia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{8efaf350-1552-4a6b-ad26-080d3fc5803e}" nombre="depravacion_gusto" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{901ac7bd-575e-4240-b44a-0b24d92b9c77}" nombre="anorexia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{d785679f-06c4-4169-a830-dff8ebd20828}" nombre="anorexia_selectiva" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{17e32ffe-6525-4c8d-83f0-927982f7b615}" nombre="inapetencia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{a327a480-3f2d-461e-8397-a46fe513bdd5}" nombre="prehension_y_masticacion" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{268a8f60-a370-425d-a369-871d727c4f6f}" nombre="deglucion" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{afe09ee0-e2bd-4ad7-bd64-21485e72a49c}" nombre="rumia" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{c623a244-d338-4f36-9d34-c27c98d79ce5}" nombre="emesis" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{c08f4ce2-2f0f-4027-9d8f-072b03019cdb}" nombre="duracion" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{c9e12bf2-26b0-4cb6-a918-73b3ab8e7136}" nombre="regurgitacion" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{a7d8b12c-f812-41a4-83bc-95df43e3063e}" nombre="heces" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{781d511e-69db-4d49-a8b0-89b922b3312c}" nombre="diarrea" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{2c9fff86-a50b-479d-8686-3700a3a0ce86}" nombre="dolor_abdominal" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{c1f9b7e8-f436-497f-8c2e-445cf336e0c5}" nombre="hematemesis" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{2e3b0495-7dd1-4713-82c3-ba0e62726838}" nombre="melena" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{4124560f-537e-4a03-99ba-c4e5e90eb3dd}" nombre="otros" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(30)" llaveUnica="" id="{777f6594-0c7b-4e14-a0e2-ca7264b85ea7}" nombre="problemas_medicos_actuales" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(200)" llaveUnica="" id="{167c121a-49b2-47ef-a05d-9ab8973290c5}" nombre="tratamientos_medicos_actuales" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(200)" llaveUnica="" id="{8ea0f20c-cf4d-4070-9c92-40a48bd11ab2}" nombre="apetito_habitual" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(200)" llaveUnica="" id="{d9d699b2-6818-432e-b233-562fd3108a69}" nombre="apetito_actual" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(200)" llaveUnica="" id="{2ff399c5-5f94-40f6-8e44-abb5b2e293c1}" nombre="dieta_ingredientes" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(200)" llaveUnica="" id="{7e62e48c-b46e-45db-a3f2-c29c7d795436}" nombre="dieta_aceptacion_alimentos" nulo="0" llaveprimaria="0" notas=""/>
-        <columna tipoDato="VARCHAR(200)" llaveUnica="" id="{8a04b8ae-bdf1-47ad-9674-69b4877ebe9f}" nombre="dieta_suplementacion" nulo="0" llaveprimaria="0" notas=""/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="fecha" id="{f03beef1-c850-4c6c-96b1-f8e043cc1e86}" tipoDato="DATE" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="peso_actual" id="{db782441-4fb4-475e-9789-24cfe91a3f11}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="condicion_corporal" id="{373d7fd9-8774-4c7a-a3c1-5f08d1c3587f}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="estres" id="{b2da34ba-06c1-4ad8-8854-9be04cd2ce28}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="polidipsia" id="{a1e3a8f0-f36a-4a19-87c6-14fdd655a9ae}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="poliuria" id="{5670e9fe-8c47-4b1a-b2db-006eecf08860}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="polifagia" id="{133fb080-09f6-4574-a0b5-d70082119a87}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="depravacion_gusto" id="{8efaf350-1552-4a6b-ad26-080d3fc5803e}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="anorexia" id="{901ac7bd-575e-4240-b44a-0b24d92b9c77}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="anorexia_selectiva" id="{d785679f-06c4-4169-a830-dff8ebd20828}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="inapetencia" id="{17e32ffe-6525-4c8d-83f0-927982f7b615}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="prehension_y_masticacion" id="{a327a480-3f2d-461e-8397-a46fe513bdd5}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="deglucion" id="{268a8f60-a370-425d-a369-871d727c4f6f}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="rumia" id="{afe09ee0-e2bd-4ad7-bd64-21485e72a49c}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="emesis" id="{c623a244-d338-4f36-9d34-c27c98d79ce5}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="duracion" id="{c08f4ce2-2f0f-4027-9d8f-072b03019cdb}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="regurgitacion" id="{c9e12bf2-26b0-4cb6-a918-73b3ab8e7136}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="heces" id="{a7d8b12c-f812-41a4-83bc-95df43e3063e}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="diarrea" id="{781d511e-69db-4d49-a8b0-89b922b3312c}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="dolor_abdominal" id="{2c9fff86-a50b-479d-8686-3700a3a0ce86}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="hematemesis" id="{c1f9b7e8-f436-497f-8c2e-445cf336e0c5}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="melena" id="{2e3b0495-7dd1-4713-82c3-ba0e62726838}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="otros" id="{4124560f-537e-4a03-99ba-c4e5e90eb3dd}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="problemas_medicos_actuales" id="{777f6594-0c7b-4e14-a0e2-ca7264b85ea7}" tipoDato="VARCHAR(30)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tratamientos_medicos_actuales" id="{167c121a-49b2-47ef-a05d-9ab8973290c5}" tipoDato="VARCHAR(200)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="apetito_habitual" id="{8ea0f20c-cf4d-4070-9c92-40a48bd11ab2}" tipoDato="VARCHAR(200)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="apetito_actual" id="{d9d699b2-6818-432e-b233-562fd3108a69}" tipoDato="VARCHAR(200)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="dieta_ingredientes" id="{2ff399c5-5f94-40f6-8e44-abb5b2e293c1}" tipoDato="VARCHAR(200)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="dieta_aceptacion_alimentos" id="{7e62e48c-b46e-45db-a3f2-c29c7d795436}" tipoDato="VARCHAR(200)" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="dieta_suplementacion" id="{8a04b8ae-bdf1-47ad-9674-69b4877ebe9f}" tipoDato="VARCHAR(200)" llaveprimaria="0"/>
       </lista-columnas>
     </item>
-    <item type="modelo-relacion" id="{771c30d2-1346-4a43-abea-e1a57c7cb611}">
+    <item type="modelo-tabla" id="{e8dab1a9-4d74-42e2-b5c1-00e9177e4524}">
+      <nombre>origen</nombre>
+      <posicion>
+        <x>-1566</x>
+        <y>-593</y>
+      </posicion>
+      <lista-columnas>
+        <columna notas="" nulo="0" llaveUnica="" nombre="id_origen" id="{7b4a116e-cbe1-4c05-b295-91a0208c0f85}" tipoDato="INTEGER" llaveprimaria="0"/>
+        <columna notas="" nulo="0" llaveUnica="" nombre="tipo_origen" id="{80e81a48-8f79-4112-bb8b-6d3e80686249}" tipoDato="VARCHAR(50)" llaveprimaria="0"/>
+      </lista-columnas>
+    </item>
+    <item type="modelo-relacion" id="{4718ba67-6a34-4ccd-a7c8-42b77fb876f3}">
       <inicio>
         <posicion>
-          <x>22</x>
-          <y>-123.5</y>
+          <x>-1429</x>
+          <y>-332.5</y>
+        </posicion>
+        <angulo>180</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-1503</x>
+          <y>-332.5</y>
+        </posicion>
+        <angulo>0</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{b50a93f6-d933-460e-a503-b6ce6b83a08e}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{4a1bbd64-1706-4538-821b-2480eed37690}">
+      <inicio>
+        <posicion>
+          <x>-1247</x>
+          <y>-332.5</y>
+        </posicion>
+        <angulo>0</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-1153</x>
+          <y>-320</y>
         </posicion>
         <angulo>180</angulo>
         <cardinalidad>Muchos</cardinalidad>
         <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{b50a93f6-d933-460e-a503-b6ce6b83a08e}</owner>
-      </inicio>
-      <final>
-        <posicion>
-          <x>-100</x>
-          <y>-249</y>
-        </posicion>
-        <angulo>0</angulo>
-        <cardinalidad>Uno</cardinalidad>
-        <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
       </final>
     </item>
-    <item type="modelo-relacion" id="{d1b68142-0ba4-4370-982c-7ab82ff14ad4}">
+    <item type="modelo-relacion" id="{3f6b3e45-1412-41eb-8a59-cf1091fbd27c}">
       <inicio>
         <posicion>
-          <x>-111.5</x>
-          <y>-626</y>
+          <x>-1091.5</x>
+          <y>-363</y>
         </posicion>
-        <angulo>270</angulo>
+        <angulo>90</angulo>
         <cardinalidad>Uno</cardinalidad>
-        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
         <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
       </inicio>
       <final>
         <posicion>
-          <x>-196.8</x>
-          <y>-341</y>
-        </posicion>
-        <angulo>90</angulo>
-        <cardinalidad>Muchos</cardinalidad>
-        <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
-      </final>
-    </item>
-    <item type="modelo-relacion" id="{4d797bd2-73b9-49d3-a885-772fc347c36f}">
-      <inicio>
-        <posicion>
-          <x>-160.5</x>
-          <y>-203</y>
-        </posicion>
-        <angulo>270</angulo>
-        <cardinalidad>Uno</cardinalidad>
-        <cardinalidadLinea>Puede</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
-      </inicio>
-      <final>
-        <posicion>
-          <x>118</x>
-          <y>192</y>
-        </posicion>
-        <angulo>90</angulo>
-        <cardinalidad>Muchos</cardinalidad>
-        <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{339586a2-ad80-4a9f-af59-3d27d4fcec15}</owner>
-      </final>
-    </item>
-    <item type="modelo-relacion" id="{9a8aa714-3c1d-4f2a-9504-6c9a8c48bd5e}">
-      <inicio>
-        <posicion>
-          <x>-342</x>
-          <y>-295</y>
-        </posicion>
-        <angulo>180</angulo>
-        <cardinalidad>Uno</cardinalidad>
-        <cardinalidadLinea>Puede</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
-      </inicio>
-      <final>
-        <posicion>
-          <x>-550</x>
-          <y>-295.5</y>
-        </posicion>
-        <angulo>0</angulo>
-        <cardinalidad>Muchos</cardinalidad>
-        <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{590324fd-6c33-4f49-b2a4-ed583ccd6a8a}</owner>
-      </final>
-    </item>
-    <item type="modelo-relacion" id="{d4ddfe81-18eb-4d7b-9fa6-a793c0579e30}">
-      <inicio>
-        <posicion>
-          <x>-342</x>
-          <y>-249</y>
-        </posicion>
-        <angulo>180</angulo>
-        <cardinalidad>Uno</cardinalidad>
-        <cardinalidadLinea>Puede</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
-      </inicio>
-      <final>
-        <posicion>
-          <x>-627</x>
-          <y>-2.5</y>
-        </posicion>
-        <angulo>0</angulo>
-        <cardinalidad>Muchos</cardinalidad>
-        <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{1f475257-5a47-4698-a2bf-36b2b0fc8554}</owner>
-      </final>
-    </item>
-    <item type="modelo-relacion" id="{b2bb8666-79ed-4d9e-a571-f87209af982d}">
-      <inicio>
-        <posicion>
-          <x>-293.6</x>
-          <y>-341</y>
-        </posicion>
-        <angulo>90</angulo>
-        <cardinalidad>Uno</cardinalidad>
-        <cardinalidadLinea>Puede</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
-      </inicio>
-      <final>
-        <posicion>
-          <x>-656</x>
-          <y>-567</y>
+          <x>-1169.5</x>
+          <y>-469</y>
         </posicion>
         <angulo>270</angulo>
         <cardinalidad>Muchos</cardinalidad>
@@ -357,33 +296,33 @@
         <owner>{dd60c6de-2060-41fd-93b4-3f8f11e52aa8}</owner>
       </final>
     </item>
-    <item type="modelo-relacion" id="{271b43e6-41a7-40ea-9310-62f038d25c2f}">
+    <item type="modelo-relacion" id="{a6711ca0-ece0-4ce2-9bdc-3d12dbd3fb02}">
       <inicio>
         <posicion>
-          <x>-100</x>
-          <y>-295</y>
+          <x>-1103.8</x>
+          <y>-277</y>
         </posicion>
-        <angulo>0</angulo>
+        <angulo>270</angulo>
         <cardinalidad>Uno</cardinalidad>
         <cardinalidadLinea>Puede</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
       </inicio>
       <final>
         <posicion>
-          <x>10</x>
-          <y>-332.5</y>
+          <x>-1225.5</x>
+          <y>96</y>
         </posicion>
-        <angulo>180</angulo>
+        <angulo>90</angulo>
         <cardinalidad>Muchos</cardinalidad>
         <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{8ea8cd46-ab78-46c6-bcc7-308771516af9}</owner>
+        <owner>{1f475257-5a47-4698-a2bf-36b2b0fc8554}</owner>
       </final>
     </item>
-    <item type="modelo-relacion" id="{d6561f48-6901-4b17-a889-389e4fc02be9}">
+    <item type="modelo-relacion" id="{a638dbb4-56cd-43e9-814f-dcea5a471149}">
       <inicio>
         <posicion>
-          <x>-281.5</x>
-          <y>-203</y>
+          <x>-1338</x>
+          <y>-270</y>
         </posicion>
         <angulo>270</angulo>
         <cardinalidad>Uno</cardinalidad>
@@ -392,8 +331,8 @@
       </inicio>
       <final>
         <posicion>
-          <x>-692.5</x>
-          <y>282</y>
+          <x>-1337.5</x>
+          <y>-218</y>
         </posicion>
         <angulo>90</angulo>
         <cardinalidad>Muchos</cardinalidad>
@@ -401,11 +340,77 @@
         <owner>{487631a0-e186-4e33-b0a2-353fc908dc36}</owner>
       </final>
     </item>
+    <item type="modelo-relacion" id="{bf36a296-15ac-4f71-ab85-2b90d3780c40}">
+      <inicio>
+        <posicion>
+          <x>-1054.6</x>
+          <y>-277</y>
+        </posicion>
+        <angulo>270</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-990</x>
+          <y>156</y>
+        </posicion>
+        <angulo>90</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{8ea8cd46-ab78-46c6-bcc7-308771516af9}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{44a3733e-26e1-4d5f-9ccc-e41e57a88ebf}">
+      <inicio>
+        <posicion>
+          <x>-968.5</x>
+          <y>-363</y>
+        </posicion>
+        <angulo>90</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-832</x>
+          <y>-435.5</y>
+        </posicion>
+        <angulo>180</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{590324fd-6c33-4f49-b2a4-ed583ccd6a8a}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{59630309-40a7-4c78-add2-d62974bef333}">
+      <inicio>
+        <posicion>
+          <x>-1030</x>
+          <y>-363</y>
+        </posicion>
+        <angulo>90</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-934.5</x>
+          <y>-541</y>
+        </posicion>
+        <angulo>270</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{53881044-3569-42be-aeb6-8415bd76afd2}</owner>
+      </final>
+    </item>
     <item type="modelo-relacion" id="{ae4b3f89-970b-4a9d-9cc4-8acc48a0304b}">
       <inicio>
         <posicion>
-          <x>-692.5</x>
-          <y>394</y>
+          <x>-1337.5</x>
+          <y>-96</y>
         </posicion>
         <angulo>90</angulo>
         <cardinalidad>Uno</cardinalidad>
@@ -414,8 +419,8 @@
       </inicio>
       <final>
         <posicion>
-          <x>-692.5</x>
-          <y>342</y>
+          <x>-1337.5</x>
+          <y>-158</y>
         </posicion>
         <angulo>270</angulo>
         <cardinalidad>Muchos</cardinalidad>
@@ -423,70 +428,92 @@
         <owner>{487631a0-e186-4e33-b0a2-353fc908dc36}</owner>
       </final>
     </item>
-    <item type="modelo-relacion" id="{c9c7e855-16ce-49d3-8c82-062d29be9f55}">
+    <item type="modelo-relacion" id="{f8638a7c-c547-4ed2-9869-ea54948f5232}">
       <inicio>
         <posicion>
-          <x>-245.2</x>
-          <y>-341</y>
+          <x>-907</x>
+          <y>-320</y>
         </posicion>
-        <angulo>90</angulo>
+        <angulo>0</angulo>
         <cardinalidad>Uno</cardinalidad>
         <cardinalidadLinea>Puede</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
       </inicio>
       <final>
         <posicion>
-          <x>-353</x>
-          <y>-619</y>
+          <x>-628</x>
+          <y>-217</y>
         </posicion>
-        <angulo>270</angulo>
+        <angulo>180</angulo>
         <cardinalidad>Muchos</cardinalidad>
         <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{53881044-3569-42be-aeb6-8415bd76afd2}</owner>
+        <owner>{1192cacd-acfb-448f-a4b2-5a198c029a6e}</owner>
       </final>
     </item>
-    <item type="modelo-relacion" id="{90b9fec9-2c1a-4a8c-a5ef-09b4b57ee866}">
+    <item type="modelo-relacion" id="{5fee76fa-7992-470c-a276-2aedf5407a0c}">
       <inicio>
         <posicion>
-          <x>-148.4</x>
-          <y>-341</y>
+          <x>-1005.4</x>
+          <y>-277</y>
         </posicion>
-        <angulo>90</angulo>
+        <angulo>270</angulo>
         <cardinalidad>Uno</cardinalidad>
         <cardinalidadLinea>Puede</cardinalidadLinea>
-        <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
       </inicio>
       <final>
         <posicion>
-          <x>129</x>
-          <y>-579</y>
+          <x>-869.5</x>
+          <y>63</y>
         </posicion>
-        <angulo>270</angulo>
+        <angulo>90</angulo>
         <cardinalidad>Muchos</cardinalidad>
         <cardinalidadLinea>Debe</cardinalidadLinea>
         <owner>{a78a4216-5fbb-480f-a6d8-b68f9c771fd5}</owner>
       </final>
     </item>
-    <item type="modelo-relacion" id="{823bc5e6-faa0-4d7a-8600-ff6e0c23ed1d}">
+    <item type="modelo-relacion" id="{93dce737-4e1d-4798-9190-6b6fbe0fe4b2}">
       <inicio>
         <posicion>
-          <x>-221</x>
-          <y>-203</y>
+          <x>-1338</x>
+          <y>-395</y>
         </posicion>
-        <angulo>270</angulo>
+        <angulo>90</angulo>
         <cardinalidad>Uno</cardinalidad>
         <cardinalidadLinea>Puede</cardinalidadLinea>
         <owner>{041817f8-77b4-4855-b44c-0a54ff1accb7}</owner>
       </inicio>
       <final>
         <posicion>
-          <x>-221</x>
-          <y>114</y>
+          <x>-1443</x>
+          <y>-533</y>
+        </posicion>
+        <angulo>270</angulo>
+        <cardinalidad>Muchos</cardinalidad>
+        <cardinalidadLinea>Debe</cardinalidadLinea>
+        <owner>{e8dab1a9-4d74-42e2-b5c1-00e9177e4524}</owner>
+      </final>
+    </item>
+    <item type="modelo-relacion" id="{c87d21da-3812-4c6d-a6f5-05eee123d239}">
+      <inicio>
+        <posicion>
+          <x>-956.2</x>
+          <y>-277</y>
+        </posicion>
+        <angulo>270</angulo>
+        <cardinalidad>Uno</cardinalidad>
+        <cardinalidadLinea>Puede</cardinalidadLinea>
+        <owner>{1de5814f-4281-40fb-8fb1-96b5d2aedd0d}</owner>
+      </inicio>
+      <final>
+        <posicion>
+          <x>-742.5</x>
+          <y>-57</y>
         </posicion>
         <angulo>90</angulo>
         <cardinalidad>Muchos</cardinalidad>
         <cardinalidadLinea>Debe</cardinalidadLinea>
-        <owner>{1192cacd-acfb-448f-a4b2-5a198c029a6e}</owner>
+        <owner>{339586a2-ad80-4a9f-af59-3d27d4fcec15}</owner>
       </final>
     </item>
   </lista-item>
